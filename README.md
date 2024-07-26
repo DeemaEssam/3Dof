@@ -36,29 +36,29 @@ T = T_1 x T_2 x T_3
 Inverse Kinematics involves determining the joint angles (𝜃_1, 𝜃_2, 𝜃_3) that achieve a desired end-effector position.
 
 **Steps for IK:**
-1. Specify the Desired End-Effector Position: Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace where you want the end-effector to move.
-
-2. Calculate 𝜃_1:
-
-![image](https://github.com/user-attachments/assets/43832691-f834-4e24-83da-3d52f58a16c9)
-
-3. Calculate 𝑟 and 𝐷: First, calculate 𝑟:
-
-![image](https://github.com/user-attachments/assets/b1a15ada-85ba-4eed-a478-0b1f2ece0900)
-
-Then, calculate 𝐷:
-
-![image](https://github.com/user-attachments/assets/f5ac3719-a866-4ad1-8ecb-b07336c99540)
-
-
-4. Calculate θ_2:
-
-![image](https://github.com/user-attachments/assets/95183054-8677-4c47-8aa0-610b29987b0a)
-
-
-5. Calculate θ_3:
-
-![image](https://github.com/user-attachments/assets/54b76b69-8fdc-4aa7-9ef8-b445306a73d9)
+     1. Specify the Desired End-Effector Position: Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace where you want the end-effector to move.
+     
+     2. Calculate 𝜃_1:
+     
+     ![image](https://github.com/user-attachments/assets/43832691-f834-4e24-83da-3d52f58a16c9)
+     
+     3. Calculate 𝑟 and 𝐷: First, calculate 𝑟:
+     
+     ![image](https://github.com/user-attachments/assets/b1a15ada-85ba-4eed-a478-0b1f2ece0900)
+     
+     Then, calculate 𝐷:
+     
+     ![image](https://github.com/user-attachments/assets/f5ac3719-a866-4ad1-8ecb-b07336c99540)
+     
+     
+     4. Calculate θ_2:
+     
+     ![image](https://github.com/user-attachments/assets/95183054-8677-4c47-8aa0-610b29987b0a)
+     
+     
+     5. Calculate θ_3:
+     
+     ![image](https://github.com/user-attachments/assets/54b76b69-8fdc-4aa7-9ef8-b445306a73d9)
 
 
 
@@ -66,27 +66,27 @@ Then, calculate 𝐷:
 * Assume 𝐿_1 = 2, L2 = 2, 𝐿_3 = 1
 * Desired end-effector position (x_d, y_d, z_d) = (3,3,0).
 
-1. Calculate θ_1:
-   
-![image](https://github.com/user-attachments/assets/25ebe478-9a42-4d26-819f-cee43256100a)
-
-
-2. Calculate 𝑟:
-
-![image](https://github.com/user-attachments/assets/8c74abd9-711f-4677-93de-51dffe721ac9)
-
-3. Calculate 𝐷:
-
-![image](https://github.com/user-attachments/assets/b4d47e76-5bf9-43f3-9ca9-1e527c9a5fd7)
-
-4. Calculate θ_2:
-   
-![image](https://github.com/user-attachments/assets/0af28014-7cf4-4a96-8c7c-3da414cd5611)
-
-
-5. Calculate θ_3:
-
-![image](https://github.com/user-attachments/assets/f34e17f9-7db7-42b5-8fab-4d8708975d74)
+     1. Calculate θ_1:
+        
+     ![image](https://github.com/user-attachments/assets/25ebe478-9a42-4d26-819f-cee43256100a)
+     
+     
+     2. Calculate 𝑟:
+     
+     ![image](https://github.com/user-attachments/assets/8c74abd9-711f-4677-93de-51dffe721ac9)
+     
+     3. Calculate 𝐷:
+     
+     ![image](https://github.com/user-attachments/assets/b4d47e76-5bf9-43f3-9ca9-1e527c9a5fd7)
+     
+     4. Calculate θ_2:
+        
+     ![image](https://github.com/user-attachments/assets/0af28014-7cf4-4a96-8c7c-3da414cd5611)
+     
+     
+     5. Calculate θ_3:
+     
+     ![image](https://github.com/user-attachments/assets/f34e17f9-7db7-42b5-8fab-4d8708975d74)
 
 ```ruby
 θ_3 ≈ arctan2 (−2,4.24) − 30.96 − 45 ≈ −18.43 degrees
