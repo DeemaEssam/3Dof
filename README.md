@@ -7,17 +7,17 @@ Forward Kinematics involves determining the position and orientation of the robo
 **Steps for FK:**
 1. Define the Transformation Matrices for each Joint: Each joint's transformation matrix depends on its respective joint angle (θ_i) and link length (L_i).
 
-                * For Joint 1:
-                  
-                ![image](https://github.com/user-attachments/assets/061922bd-f6fe-42ae-9ca6-e7f8c60fcbd2)
-                
-                * For Joint 2:
-                
-                ![image](https://github.com/user-attachments/assets/c70028eb-e0f6-4c11-a2ea-093a7e4c4753)
-                
-                * For Joint 3:
-                  
-                ![image](https://github.com/user-attachments/assets/b950acd5-4440-41d9-aed5-ce5dc1af84d8)
+      * For Joint 1:
+        
+      ![image](https://github.com/user-attachments/assets/061922bd-f6fe-42ae-9ca6-e7f8c60fcbd2)
+      
+      * For Joint 2:
+      
+      ![image](https://github.com/user-attachments/assets/c70028eb-e0f6-4c11-a2ea-093a7e4c4753)
+      
+      * For Joint 3:
+        
+      ![image](https://github.com/user-attachments/assets/b950acd5-4440-41d9-aed5-ce5dc1af84d8)
 
 2. Compute the Overall Transformation Matrix: Combine the transformation matrices of all joints to get the overall transformation from the base to the end-effector.
  ```ruby
