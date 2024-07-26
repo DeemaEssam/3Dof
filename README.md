@@ -36,29 +36,29 @@ T = T_1 x T_2 x T_3
 Inverse Kinematics involves determining the joint angles (𝜃_1, 𝜃_2, 𝜃_3) that achieve a desired end-effector position.
 
 **Steps for IK:**
- Specify the Desired End-Effector Position: Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace where you want the end-effector to move.
+* Specify the Desired End-Effector Position: Choose the desired position (𝑥_𝑑, 𝑦_d, 𝑧_𝑑) in the workspace where you want the end-effector to move.
+  
+     1. Calculate 𝜃_1:
      
-1. Calculate 𝜃_1:
-
-![image](https://github.com/user-attachments/assets/43832691-f834-4e24-83da-3d52f58a16c9)
-
-2. Calculate 𝑟 and 𝐷: First, calculate 𝑟:
-
-![image](https://github.com/user-attachments/assets/b1a15ada-85ba-4eed-a478-0b1f2ece0900)
-
-Then, calculate 𝐷:
-
-![image](https://github.com/user-attachments/assets/f5ac3719-a866-4ad1-8ecb-b07336c99540)
-
-
-3. Calculate θ_2:
-
-![image](https://github.com/user-attachments/assets/95183054-8677-4c47-8aa0-610b29987b0a)
-
-
-4. Calculate θ_3:
-
-![image](https://github.com/user-attachments/assets/54b76b69-8fdc-4aa7-9ef8-b445306a73d9)
+     ![image](https://github.com/user-attachments/assets/43832691-f834-4e24-83da-3d52f58a16c9)
+     
+     2. Calculate 𝑟 and 𝐷: First, calculate 𝑟:
+     
+     ![image](https://github.com/user-attachments/assets/b1a15ada-85ba-4eed-a478-0b1f2ece0900)
+     
+     Then, calculate 𝐷:
+     
+     ![image](https://github.com/user-attachments/assets/f5ac3719-a866-4ad1-8ecb-b07336c99540)
+     
+     
+     3. Calculate θ_2:
+     
+     ![image](https://github.com/user-attachments/assets/95183054-8677-4c47-8aa0-610b29987b0a)
+     
+     
+     4. Calculate θ_3:
+     
+     ![image](https://github.com/user-attachments/assets/54b76b69-8fdc-4aa7-9ef8-b445306a73d9)
 
 
 **Example Calculation:**
