@@ -8,6 +8,7 @@ Forward Kinematics involves determining the position and orientation of the robo
 1. Define the Transformation Matrices for each Joint: Each joint's transformation matrix depends on its respective joint angle (θ_i) and link length (L_i).
 
 * For Joint 1:
+  
 ![image](https://github.com/user-attachments/assets/061922bd-f6fe-42ae-9ca6-e7f8c60fcbd2)
 
 * For Joint 2:
